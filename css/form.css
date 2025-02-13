@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.login{
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 100px;
+}
+h1{
+    position: relative;
+    bottom: 25px;
+}
+input{
+    margin: 5px;
+    padding: 2px 12px;
+}
+a{
+    color: beige;
+}
+a:hover{
+    color: aquamarine;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.submit{
+    background-color: teal;
+    border: none;
+    padding: 4px 12px;
+    width: 200px;
+    /* margin-left: 15px; */
+    margin: 15px;
+}
+.login1{
+    background-color: rgb(76, 76, 240);
+    border: none;
+}
+.login2{
+    background-color: rgb(233, 69, 69);
+    border: none;
+}
+.reg-form{
+    border: 2px solid orange;
+    width: fit-content;
+    padding: 15px;
+    margin: 100px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, lightyellow, rgb(141, 211, 141), rgb(255, 212, 131), rgb(141, 240, 141), lightyellow) ; 
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+}
+.reg label{
+    text-align: left;
+}
+.reg input{
+    text-align: right;
+}
+.reg-btn{
+    position: relative;
+    /* right: 50px; */
+    border: 2px solid maroon;
+    background-color: rgb(245, 161, 161);
+    border-radius: 5px;
+    /* align-items: flex-start; */
+    /* gap: 15px; */
+    width: 100px;
+    padding: 2px 0;
+}
+.btn{
+    position: relative;
+    margin-top: 25px;
+    right: 55px;
+    gap: 15px;
+}
